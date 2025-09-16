@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3 - Table and Form</title>
+    <script src="sameWindow.js"></script>
+    <link rel="stylesheet" href="task3_style.css">
+    <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+<div class="header">
+    <h1>Grades & Feedback</h1>
+</div>
+<div class="navbar">
+    <a href="index.html">Task 1</a>
+    <a href="task2.html" >Task 2</a>
+    <a href="task3.html" onclick="SamePage();">Task 3</a>
+
+    <a href="task4.html">Task 4</a>
+</div>
+<h1 id="page-heading">Student Grades</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Subject</th>
+        <th>Grade</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td rowspan="2">Denis</td>
+        <td>Calculus 2</td>
+        <td>A-</td>
+    </tr>
+    <tr>
+        <td>Algorithms and Data Structures</td>
+        <td>B+</td>
+    </tr>
+    <tr class="highlight-row">
+        <td>Kaisar</td>
+        <td>History of Kazakhstan</td>
+        <td>A+</td>
+    </tr>
+    <tr>
+        <td>Ayan</td>
+        <td colspan="2">Project Work (Grade Pending)</td>
+    </tr>
+    </tbody>
+</table>
+
+<div class="form-container">
+    <h2>Feedback Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="role">Role:</label>
+        <select id="role" name="role">
+            <option>Student</option>
+            <option>Teacher</option>
+            <option>Other</option>
+        </select><br>
+
+        <p>Was this page helpful?</p>
+        <label><input type="radio" name="helpful" value="yes"> Yes</label>
+        <label><input type="radio" name="helpful" value="no"> No</label><br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4"></textarea><br>
+
+        <button type="button" class="btn" onclick="SucessSubmit()">Submit</button>
+    </form>
+</div>
+<div class="footer">
+    <p>© 2025 | Ayan's WT WebSite | All rights reserved </p>
+</div>
+</body>
+</html>

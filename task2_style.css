@@ -1,0 +1,71 @@
+.content {
+    max-width: 70%;
+    margin: auto;
+    padding: 5px
+}
+.photo img {
+    float: none;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    padding-left: 5px;
+    width: 20%;
+}
+.description h1 {
+    text-align: center;
+    margin-left: 33%;
+    margin-right: 33%;
+    font-size: 30px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    padding: 10px;
+}
+.description h2,p {
+    background: #dadada;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-inline: 30px;
+}
+
+.contributions {
+    background-color: #bdbdbd;
+    padding: 10px;
+    font-size: 25px;
+    text-align: left;
+    border-radius: 10px;
+    margin-inline: 30px;
+
+}
+.contributions h3 {
+    margin: 10px;
+    margin-left: 15px;
+}
+.awards {
+    background-color: #bdbdbd;
+    padding: 10px;
+    font-size: 25px;
+    text-align: left;
+    border-radius: 10px;
+    margin-inline: 30px;
+    margin-top: 10px;
+}
+.awards h3 {
+    margin: 10px;
+    margin-left: 15px;
+}
+.btn {
+    background-color: #684efd;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-inline: 30px ;
+}
+.btn:hover {
+    background-color: #383067;
+}
